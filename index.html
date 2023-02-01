@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,58 +8,48 @@
     <title></title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
-    
+
+
     <div class="main">
         <div class="heading">
             <h2>EMI CALCULATOR </h2>
         </div>
         <div class="cal">
-             <form >
-            <input type="number" placeholder="principle" class="p">
-            <input type="number" placeholder="interest rate" class="r">
-            <input type="number" placeholder="tenure" class="n">
-            <button value="submit"> calculate </button>
-        </form>
-        </div>
-       
-        <!-- <table class="table" border="1">
-            <th class>PRINCIPAL</th>
-            <th>INTEREST</th>
-            <th>TOTAL</th>
-            <th>REMAINING</th>
-
-            <tr class="tr">
-                <td class="td">
-                    <p>hello</p>
-                </td><td>
-                    <p>hello</p>
-                </td><td>
-                    <p>hello</p>
-                </td><td>
-                    <p>hello</p>
-                </td>
-            </tr>
-
-
-        </table> -->
-        <div class="h3">
-               <h3>amount</h3>
-                <h3>interest</h3>
-                <h3>total A+I</h3>
-                <h3>due</h3>
-                
-               
-            </div>
-        <div class="table">
-                <h3 class="amount"></h3>
-                <h3 class="interest"></h3>
-                <h3 class="total"></h3>
-                <h3 class="due"></h3>
+            <form>
+                <input type="number" placeholder="principle" class="p">
+                <input type="number" placeholder="interest rate" class="r">
+                <input type="number" placeholder="tenure" class="n">
+                <button value="submit" class="sub"> calculate </button>
+                <button class="clear"> clear <i class="fa-solid fa-trash"></i></button>
+            </form>
         </div>
 
+        <div class="ans">
+            <p class="ans1">EMI OF <span class="money">0</span> IS <span class="half">0</span> AND FOR <span
+                    class="time">0</span> months</p>
+        </div>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>no</td>
+                    <td>amount</td>
+                    <td>interest</td>
+                    <td>total A+I</td>
+                    <td>due payment</td>
+                </tr>
+            </tbody>
+
+
+        </table>
     </div>
+
+
+
 </body>
+
 </html>
