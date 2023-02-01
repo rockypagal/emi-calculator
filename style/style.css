@@ -81,10 +81,10 @@ button{
     cursor: pointer;
     transition: all ease .5s;
     background-position: left;
-
     background-image: linear-gradient(to right, #0575E6 50%, #c471ed 25%, #f64f59 25%);
     background-size: 250%;
     background-position: top left;
+    margin-left: 10px;
     transition: all ease .5s;
 }
 
@@ -102,6 +102,21 @@ table{
     border:none;
     width:600px;
     outline: none;
+    background-color:ghostwhite;
+    /* border:none; */
+    color:#000046;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-bottom: 100px;
+    border:none;
+    transition: all ease 0.5s;
+
+}
+
+td{
+    margin-right: 30px;
+    border:2px solid black;
+    border-radius: 5px;
 }
 
 th{
@@ -109,12 +124,9 @@ th{
 
 }
 
-.h3{
-    color:white;
-     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    margin: auto;
-    width:fit-content;
+.ans{
+color:white;
+font-size:19px;
 }
 
 .table{
@@ -123,6 +135,21 @@ th{
     margin: auto;
     width:fit-content;
     color:white;
-    margin-bottom: 100px;
+    
 }
 
+.money,.half,.time{
+    color:gold
+}
+
+.clear{
+    background-image: linear-gradient(to right, #f64f59 50%, #c471ed 25%, #0575E6 25%);
+    background-size: 250%;
+    background-position: top right;
+
+    transition: all ease .5s;
+}
+
+.clear:hover{
+     background-position: top left;
+}
